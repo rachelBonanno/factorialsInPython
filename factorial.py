@@ -5,7 +5,6 @@ import math
 
 num = [10, 20, 30, 40, 50]
 factorial = 1
-error = 0
 
 for val in num:
     # check if the number is negative, positive or zero
