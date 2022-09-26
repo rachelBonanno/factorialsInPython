@@ -1,2 +1,4 @@
-# factorialsInPython
-A python program to solve for factorials.
+# Factorials In Python (for Discreate HW3)
+BONUS-8.6**: The Scottish mathematician James Stirling found an approximation formula for n!. Stirling's formula is $n!  \approx \sqrt{2 \pi n} n^n e^{-n}$ where $\pi$ = 3.14159 ... and e = 2.71828 .... (Scientific calculators have a key that computes ex; this key might be labeled exp x.) Compute n! and Stirling's approximation ton! for n = 10, 20, 30, 40, 50. What is the relative error in the approximations?
+
+**For credit on this bonus problem, write code that will compute both n! and Stirling’s approximation of n! (rounded to the nearest integer) for a given n $\in$ N. (a) Show both the code and the input/output for n = 10, 20, 30, 40, 50 if possible. (b) Give the relative error (= error/correct value) to two significant digits, either as a decimal or a percent.
