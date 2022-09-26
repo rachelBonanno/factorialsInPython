@@ -1,9 +1,11 @@
 # Python program to find the factorial of a number provided by the user.
 # To take input from the user
 # int(input("Enter a number: "))
+import math
 
 num = [10, 20, 30, 40, 50]
 factorial = 1
+error = 0
 
 for val in num:
     # check if the number is negative, positive or zero
@@ -14,6 +16,5 @@ for val in num:
     else:
        for i in range(1,val + 1):
            factorial = factorial*i
-       print("The factorial of",val,"is",factorial)
+       print("The factorial of",val,"is",factorial,"and the relative error is", (factorial-math.sqrt(2*math.pi*val)*((val/math.e)**val))/factorial, "\n")
     factorial = 1
-
